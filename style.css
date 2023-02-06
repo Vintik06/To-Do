@@ -1,0 +1,91 @@
+.wrapper {
+    width: 1000px;
+    height: 550px;
+    background: #2B1887;
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    display: flex;
+}
+
+img {
+    width: 100%;
+}
+
+.text {
+    color: white;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.image1 {
+    width: 40px;
+}
+
+.para1 {
+    font-size: 50px;
+    height: 1px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+}
+
+.para2 {
+    font-size: 25px;
+    height: 1px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+}
+
+.para2::before {
+    content:url('Subtract2.png')
+}
+
+.add-button {
+    margin-top: 10px;
+    width: 20px;
+    height: 20px;
+}
+
+.to-do {
+    margin-top: 60px;
+    width: 300px;
+    height: 350px;
+    background-color: #D5CCFF;
+}
+
+.todo-list {
+    padding: 20px;
+}
+
+.para3 {
+    padding: 15px;
+    font-size: 19px;
+    color:#2B1887;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+}
+
+.para3::before {
+    content:url('Vector.png')
+}
+
+.add-task-add-button {
+    width: 20px;
+    height: 20px;
+}
+
+.add-task {
+    margin-left: 50px;
+    display: none;
+}
+
+.flex {
+    display: flex;
+}
