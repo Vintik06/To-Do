@@ -42,43 +42,54 @@ img {
     font-weight: 500;
 }
 
-.para2::before {
-    content:url('Subtract2.png')
+.add-button {
+    margin-top: 30px;
+    margin-left: 10px;
+    width: 25px;
+    height: 24px;
+    text-align: center;
+    cursor: pointer;
 }
 
-.add-button {
-    margin-top: 10px;
+.up-to-do {
+    display: flex;
+}
+
+.image2 {
     width: 20px;
-    height: 20px;
+    height: 25px;
+    margin-top: 37px;
+    margin-left: 20px;
 }
 
 .to-do {
     margin-top: 60px;
     width: 300px;
-    height: 350px;
+    height: 400px;
     background-color: #D5CCFF;
 }
 
 .todo-list {
     padding: 20px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
 }
 
 .para3 {
     padding: 15px;
-    font-size: 19px;
+    font-size: 21px;
     color:#2B1887;
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 700;
 }
 
-.para3::before {
-    content:url('Vector.png')
-}
-
 .add-task-add-button {
-    width: 20px;
-    height: 20px;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
 }
 
 .add-task {
@@ -88,4 +99,14 @@ img {
 
 .flex {
     display: flex;
+}
+
+p {
+    position: relative;
+}
+
+span {
+    position: absolute;
+    right: 0;
+    cursor: pointer;
 }
